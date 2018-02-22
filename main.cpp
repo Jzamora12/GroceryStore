@@ -16,7 +16,7 @@ int main()
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
   if ( input == 'a' || input == 'A' ) {
-  cout<<"\nWhat is the item?"; 
+  cout<<"What is the item?"; 
    cin >> list[numItems];
   } 
   if ( numItems > 5 ){
