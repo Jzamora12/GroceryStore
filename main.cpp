@@ -19,7 +19,7 @@ int main()
   cout<<"\nWhat is the item?"; 
    cin >> list[numItems];
   } 
-  if ( numItems < 5 ){
+  if ( numItems > 5 ){
   cout<<"\nYou'll need a bigger list!";}
  } while ( input != 'Q' && input != 'q' );
 
