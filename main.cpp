@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-  string list[5]; //array of 5 strings
-  int numItems = 0;
-  char input;
+string list[5]; //array of 5 strings 
+int numItems = 0; 
+char input;
   string item;
  do {
   cout<<"\n==GROCERY LIST MANAGER==";
@@ -30,6 +30,15 @@ int main()
   cout<<"You'll need a bigger list!\n";
   }
  } while ( input != 'Q' && input != 'q' );
-
+    cout<<"==ITEMS TO BUY==";
+  for (int i = 0; i < 5; i++) 
+    {
+        cout<<endl<< i+1; 
+         if ( list[i]!="")
+        {
+        cout<<" "<< list[i];
+        }
+ 
+    }
   return 0;
 }
