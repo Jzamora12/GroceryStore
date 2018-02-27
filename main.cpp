@@ -30,11 +30,11 @@ char input;
   cout<<"You'll need a bigger list!\n";
   }
  } while ( input != 'Q' && input != 'q' );
-    cout<<"==ITEMS TO BUY==";
+    cout<<"==ITEMS TO BUY==\n";
   for (int i = 0; i < 5; i++) 
     {
-        cout<<endl<< i+1; 
-        cout<<" "<<list[i];
+        cout<<i+1; 
+        cout<<" "<<list[i]<<endl;
     }
   return 0;
 }
