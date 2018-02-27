@@ -34,11 +34,7 @@ char input;
   for (int i = 0; i < 5; i++) 
     {
         cout<<endl<< i+1; 
-         if ( list[i]!="")
-        {
-        cout<<" "<< list[i];
-        }
- 
+        cout<<" "<<list[i];
     }
   return 0;
 }
